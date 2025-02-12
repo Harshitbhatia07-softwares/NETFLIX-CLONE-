@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: rgb(5, 8, 20);
+  color: white;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.8), rgba(16, 15, 15, 0.8)),
+    url(header-image.png);
+  background-size: cover;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-size: 80px;
+}
+.container button {
+  border-radius: 30px;
+}
+.content button {
+  height: 200px;
+  width: 330px;
+  background-color: rgb(32, 17, 30);
+  color: aliceblue;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.content button h3 {
+  font-size: 33px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.english_button {
+  padding: 3px;
+  width: 121px;
+  height: 35px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10px;
+  box-shadow: white;
+  text-align: left;
+}
+
+.english_button:hover {
+  background-color: grey;
+}
+.img {
+  height: 28px;
+  padding: 2px;
+}
+
+.sign_in_button {
+  background-color: red;
+  font-size: 17px;
+  width: 95px;
+  height: 35px;
+  color: white;
+  border-radius: 6px;
+  padding: 3px;
+  border: red;
+}
+.sign_in_button:hover {
+  background-color: rgb(128, 25, 25);
+}
+.logo {
+  padding: 12px;
+  width: 65%;
+}
+.logo img {
+  height: 45px;
+  color: rgb(255, 1, 1);
+  opacity: 1;
+  filter: contrast(11);
+}
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  /* line-height: 96px; */
+  font-size: 71px;
+  font-size: 71px;
+}
+h2 {
+  font-family: "Martel Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 63px;
+  margin-left: 169px;
+}
+h3 {
+  font-family: "Martel Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.h1_h2 {
+  width: 910px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+  height: 46px;
+  width: 372px;
+  background-color: transparent;
+  border: 1px solid #b5b4b4;
+  border-radius: 11px;
+  padding: 22px;
+  size: 20px;
+  color: white;
+}
+.curve img {
+  width: 100%;
+}
+
+.getStarted {
+  height: 43px;
+  background: red;
+  width: 145px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.getStarted:hover {
+  background-color: rgb(130, 23, 23);
+}
+
+.trend {
+  font-size: 28px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 170px;
+}
+.FAQ {
+  align-items: center;
+}
+.netflix {
+  width: 80%;
+  justify-content: left;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+  color: white;
+  background-color: rgb(48, 47, 47);
+}
+.netflix .netflixFaq {
+  font-size: 26px;
+  margin: 4px;
+  align-items: left;
+  justify-content: left;
+  /* margin-left: 0px; */
+  /* background-color: rgb(48, 47, 47); */
+  padding: 3px;
+  font-weight: 300;
+  text-align: left;
+}
+.cards {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.read {
+  font-size: 30px;
+}
+.harsh {
+  display: grid;
+  margin-left: 100px;
+}
+a {
+  color: white;
+  margin-left: 10px;
+}
+.last h3 {
+  display: flex;
+  justify-content: center;
+}
+.last .btns {
+  display: flex;
+  justify-content: center;
+}
+.netflix img {
+  filter: invert();
+  margin-right: 100px;
+}
+.netflix {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+.upper:hover {
+  height: 280px;
+}
+.button {
+  color: #000;
+}
+
+/* cards css */
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-left: 163px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  width: 23%; /* Set width to 23% for 4 cards in one row */
+  height: 300px; /* Set height to the same value for uniformity */
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* css for center content */
+.FAQ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.System {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
